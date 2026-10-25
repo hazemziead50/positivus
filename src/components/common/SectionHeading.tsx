@@ -1,4 +1,5 @@
 import React from "react";
+import { cn } from "@/lib/utils";
 
 export interface SectionHeadingProps {
   title: string;
@@ -14,7 +15,10 @@ export const SectionHeading: React.FC<SectionHeadingProps> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col lg:flex-row items-center lg:items-center gap-6 lg:gap-10 mb-10 md:mb-16 text-center lg:text-left ${className}`}
+      className={cn(
+        "flex flex-col lg:flex-row items-center lg:items-center gap-6 lg:gap-10 mb-10 md:mb-16 text-center lg:text-left",
+        className
+      )}
     >
 
       <h2 className="inline-block bg-positivus-green text-positivus-dark font-medium text-3xl md:text-4xl px-2.5 py-1 rounded-[7px] shrink-0">

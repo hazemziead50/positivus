@@ -18,11 +18,16 @@ export const Testimonials: React.FC = () => {
   
   useEffect(() => {
     if(!api) return
-    setCount(api.scrollSnapList().length) //Calc Snap points to creat the stars
+    setCount(api.scrollSnapList().length) //Calc Sn ap points to creat the stars
     setCurrent(api.selectedScrollSnap()) // send the curent selected slide index
-    api.on("select",()=>{ 
+
+    const handler = ()=>{
       setCurrent(api.selectedScrollSnap())
-    })
+    }
+    api.on("select",handler)
+    //cleanup function run when component unmounts
+    return ()=>{api.off('select',handler)}
+
 
   }, [api]);
 

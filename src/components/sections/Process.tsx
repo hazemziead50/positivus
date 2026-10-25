@@ -12,6 +12,8 @@ import { workingProcessData } from "../../data/process";
   return (
     <section id="process" className="w-full py-10 md:py-16">
       <div className="max-w-7xl mx-auto px-5 md:px-8">
+        
+       
         <SectionHeading
           title="Our Working Process"
           description="Step-by-Step Guide to Achieving Your Business Goals"

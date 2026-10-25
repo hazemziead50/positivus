@@ -28,7 +28,7 @@ function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
 
           {/* Text Content */}
-          <div className="flex flex-col items-center text-center md:items-center md:text-center lg:items-start lg:text-left gap-7 max-w-xl mx-auto lg:mx-0">
+          <div className="flex flex-col items-center text-center  lg:items-start lg:text-left gap-7 max-w-xl mx-auto lg:mx-0">
 
             <h1 className="text-4xl sm:text-5xl lg:text-[60px] pr-4 font-medium leading-[1.15] text-positivus-dark tracking-tight">
               Navigating the digital landscape for success
@@ -46,7 +46,7 @@ function Hero() {
               asChild
               variant="dark"
               size="lg"
-              className="w-full sm:w-auto px-9 py-5 text-lg"
+              className="w-full sm:w-auto"
             >
               <a href="#contact">Book a consultation</a>
             </Button>

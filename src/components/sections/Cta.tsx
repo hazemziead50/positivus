@@ -11,7 +11,7 @@ export const CTA: React.FC = () => {
         <div className="relative bg-positivus-grey rounded-[35px] md:rounded-[45px] p-8 sm:p-10 md:p-12 lg:px-[60px] lg:py-14 flex flex-col-reverse lg:flex-row items-center justify-between min-h-[340px] gap-8 lg:gap-0">
           
           
-          <div className="flex flex-col items-center md:items-center text-center md:text-center w-full lg:flex lg:items-start lg:text-left lg:max-w-[500px] gap-5 sm:gap-6 z-10">
+          <div className="flex flex-col items-center  text-center  w-full lg:items-start lg:text-left lg:max-w-[500px] gap-5 sm:gap-6 z-10">
             <h3 className="text-2xl sm:text-3xl font-medium text-positivus-dark tracking-tight">
               Let’s make things happen
             </h3>
