@@ -1,9 +1,9 @@
-import member1 from '../assets/images/Team/Team1.svg'
-import member2 from '../assets/images/Team/Team2.svg'
-import member3 from '../assets/images/Team/Team3.svg'
-import member4 from '../assets/images/Team/Team4.svg'
-import member5 from '../assets/images/Team/Team5.svg'
-import member6 from '../assets/images/Team/Team6.svg'
+import member1 from '../assets/images/Team/Team1.png'
+import member2 from '../assets/images/Team/Team2.png'
+import member3 from '../assets/images/Team/Team3.png'
+import member4 from '../assets/images/Team/Team4.png'
+import member5 from '../assets/images/Team/Team5.png'
+import member6 from '../assets/images/Team/Team6.png'
 
 
   
